@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPA Investment Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>📊 SEPA Investment Dashboard</h1>
+        <nav>
+            <a href="index.html" class="active">監察列表</a>
+            <a href="portfolio.html">模擬倉</a>
+        </nav>
+        <div class="last-update">
+            最後更新: <span id="lastUpdate">--</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- 總覽 -->
+        <section class="overview">
+            <div class="stat-card">
+                <h3>監察股票</h3>
+                <span id="totalStocks">0</span>
+            </div>
+            <div class="stat-card green">
+                <h3>可買入</h3>
+                <span id="buyCount">0</span>
+            </div>
+            <div class="stat-card yellow">
+                <h3>觀察中</h3>
+                <span id="watchCount">0</span>
+            </div>
+            <div class="stat-card red">
+                <h3>避開</h3>
+                <span id="avoidCount">0</span>
+            </div>
+        </section>
+
+        <!-- 股票列表 -->
+        <section class="stock-list">
+            <h2>📈 股票監察列表</h2>
+            <div class="table-container">
+                <table id="stockTable">
+                    <thead>
+                        <tr>
+                            <th>股票</th>
+                            <th>現價</th>
+                            <th>SEPA 分數</th>
+                            <th>建議</th>
+                            <th>趨勢</th>
+                            <th>基本面</th>
+                            <th>階段</th>
+                            <th>催化劑</th>
+                            <th>止損位</th>
+                            <th>目標價</th>
+                            <th>更新時間</th>
+                            <th>詳情</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stockTableBody">
+                        <!-- 動態載入 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 分數分佈圖 -->
+        <section class="charts">
+            <h2>📊 SEPA 分數分佈</h2>
+            <div class="chart-container">
+                <canvas id="scoreChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <!-- 詳情 Modal -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- 動態載入 -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>SEPA Investment Dashboard | 數據僅供參考，不構成投資建議</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

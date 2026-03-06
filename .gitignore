@@ -1,0 +1,14 @@
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+
+# Temp
+*.tmp

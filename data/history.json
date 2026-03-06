@@ -1,0 +1,13 @@
+{
+  "trades": [
+    {
+      "date": "2026-03-05",
+      "symbol": "MSFT",
+      "type": "buy",
+      "price": 410.00,
+      "quantity": 50,
+      "total": 20500,
+      "note": "SEPA 評分 79，突破後買入"
+    }
+  ]
+}

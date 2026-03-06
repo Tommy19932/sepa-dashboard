@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模擬倉 - SEPA Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>📊 SEPA Investment Dashboard</h1>
+        <nav>
+            <a href="index.html">監察列表</a>
+            <a href="portfolio.html" class="active">模擬倉</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 持倉總覽 -->
+        <section class="portfolio-overview">
+            <div class="stat-card large">
+                <h3>總資產</h3>
+                <span id="totalValue">$0</span>
+            </div>
+            <div class="stat-card">
+                <h3>現金</h3>
+                <span id="cashBalance">$0</span>
+            </div>
+            <div class="stat-card">
+                <h3>持倉市值</h3>
+                <span id="stockValue">$0</span>
+            </div>
+            <div class="stat-card green" id="totalPLCard">
+                <h3>總盈虧</h3>
+                <span id="totalPL">$0</span>
+                <small id="totalPLPercent">0%</small>
+            </div>
+            <div class="stat-card">
+                <h3>勝率</h3>
+                <span id="winRate">0%</span>
+            </div>
+        </section>
+
+        <!-- 持倉列表 -->
+        <section class="holdings">
+            <h2>📋 目前持倉</h2>
+            <div class="table-container">
+                <table id="holdingsTable">
+                    <thead>
+                        <tr>
+                            <th>股票</th>
+                            <th>買入價</th>
+                            <th>現價</th>
+                            <th>數量</th>
+                            <th>市值</th>
+                            <th>盈虧</th>
+                            <th>盈虧 %</th>
+                            <th>SEPA 分數</th>
+                            <th>止損位</th>
+                            <th>買入日期</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="holdingsBody">
+                        <!-- 動態載入 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 交易記錄 -->
+        <section class="trade-history">
+            <h2>📜 交易記錄</h2>
+            <div class="table-container">
+                <table id="tradeHistoryTable">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>股票</th>
+                            <th>類型</th>
+                            <th>價格</th>
+                            <th>數量</th>
+                            <th>金額</th>
+                            <th>盈虧</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tradeHistoryBody">
+                        <!-- 動態載入 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 新增交易 -->
+        <section class="add-trade">
+            <h2>➕ 新增交易</h2>
+            <form id="tradeForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>股票代號</label>
+                        <input type="text" id="tradeSymbol" placeholder="e.g. MSFT, 9992.HK" required>
+                    </div>
+                    <div class="form-group">
+                        <label>交易類型</label>
+                        <select id="tradeType" required>
+                            <option value="buy">買入</option>
+                            <option value="sell">賣出</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>價格</label>
+                        <input type="number" id="tradePrice" step="0.01" placeholder="0.00" required>
+                    </div>
+                    <div class="form-group">
+                        <label>數量</label>
+                        <input type="number" id="tradeQuantity" placeholder="0" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>日期</label>
+                        <input type="date" id="tradeDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label>止損位 (可選)</label>
+                        <input type="number" id="tradeStopLoss" step="0.01" placeholder="0.00">
+                    </div>
+                </div>
+                <div class="form-group full">
+                    <label>備註</label>
+                    <input type="text" id="tradeNote" placeholder="交易原因...">
+                </div>
+                <button type="submit" class="btn-primary">確認交易</button>
+            </form>
+        </section>
+
+        <!-- 表現圖表 -->
+        <section class="performance-charts">
+            <h2>📈 表現圖表</h2>
+            <div class="chart-row">
+                <div class="chart-container half">
+                    <h3>資產變化</h3>
+                    <canvas id="portfolioChart"></canvas>
+                </div>
+                <div class="chart-container half">
+                    <h3>持倉分佈</h3>
+                    <canvas id="allocationChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 賣出 Modal -->
+    <div id="sellModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>賣出股票</h2>
+            <form id="sellForm">
+                <input type="hidden" id="sellSymbol">
+                <div class="form-group">
+                    <label>股票</label>
+                    <input type="text" id="sellSymbolDisplay" readonly>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>賣出價</label>
+                        <input type="number" id="sellPrice" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label>數量</label>
+                        <input type="number" id="sellQuantity" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>日期</label>
+                    <input type="date" id="sellDate" required>
+                </div>
+                <button type="submit" class="btn-primary">確認賣出</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>SEPA Investment Dashboard | 模擬倉僅供學習參考</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
