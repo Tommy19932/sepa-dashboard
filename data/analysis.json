@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-07T00:15:00+08:00",
+  "lastUpdate": "2026-03-07T00:30:00+08:00",
   "stocks": [
     {
       "symbol": "NVDA",
@@ -23,7 +23,7 @@
       "rsScore": 10,
       "riskScore": 5,
       "stage": "Stage 2 中期",
-      "catalysts": "AI 爆發、數據中心 +75%、OpenAI/Anthropic 投資",
+      "catalysts": "🚀 AI 晶片需求爆炸 - 數據中心營收 +75%\n🚀 OpenAI/Anthropic 戰略投資\n🚀 新 Blackwell 架構推出\n✅ 自駕車、機器人應用增長",
       "revenueGrowth": 73.21,
       "earningsGrowth": 94.47,
       "netMargin": 63.06,
@@ -35,7 +35,8 @@
       "targetPrice": 212,
       "riskReward": "1.7:1",
       "analysisDate": "2026-03-07",
-      "summary": "AI 晶片絕對龍頭，基本面爆炸性增長，接近歷史高位，回調可買入"
+      "summary": "AI 晶片絕對龍頭，92% GPU 市場份額。基本面爆炸性增長（營收+73%，盈利+94%），淨利率高達 63%。數據中心營收同比+75%，AI 催化劑極強。接近歷史高位，但回調即買入機會。止損 $163，目標 $212。",
+      "analysisDate": "2026-03-07T00:15:00+08:00"
     },
     {
       "symbol": "MSFT",
@@ -59,7 +60,7 @@
       "rsScore": 7,
       "riskScore": 8,
       "stage": "Stage 2 回調期",
-      "catalysts": "Azure AI 增長、Copilot 整合、OpenAI 合作",
+      "catalysts": "🚀 Azure AI 雲端增長強勁\n🚀 Copilot 全面整合 Office\n🚀 OpenAI 戰略合作\n✅ 企業數碼轉型持續",
       "revenueGrowth": 16.72,
       "earningsGrowth": 59.52,
       "netMargin": 47.32,
@@ -71,7 +72,7 @@
       "targetPrice": 520,
       "riskReward": "2.5:1",
       "analysisDate": "2026-03-06",
-      "summary": "基本面極強，AI 雲端催化劑明確，等待突破 $440-450 區間"
+      "summary": "基本面極強，淨利率 47% 印鈔機器。AI 雲端催化劑明確，OpenAI 合作優勢顯著。目前處於回調期，距離高位 -26%。等待突破 $440-450 區間再入場。止損 $365，目標 $520。"
     },
     {
       "symbol": "9992.HK",
@@ -95,7 +96,7 @@
       "rsScore": 7,
       "riskScore": 6,
       "stage": "Stage 3→1 過渡",
-      "catalysts": "中國IP消費政策、Labubu爆紅、海外擴張",
+      "catalysts": "🚀 Labubu IP 全球爆紅\n🚀 中國 IP 消費政策支持\n✅ 海外擴張（美國、東南亞）\n✅ 盲盒市場領導地位",
       "revenueGrowth": 204.45,
       "earningsGrowth": 396.49,
       "netMargin": 32.97,
@@ -107,7 +108,7 @@
       "targetPrice": 300,
       "riskReward": "2.3:1",
       "analysisDate": "2026-03-06",
-      "summary": "超級成長股，但處於回調期，等待築底完成"
+      "summary": "超級成長股，營收+204%、盈利+396%，淨利率 33%。Labubu IP 爆紅，中國政策支持。但目前處於回調期，距高位 -39%。需等待 $180-220 區間築底完成。止損 $175，目標 $300。"
     },
     {
       "symbol": "BE",
@@ -131,7 +132,7 @@
       "rsScore": 4,
       "riskScore": 3,
       "stage": "Stage 2 高位",
-      "catalysts": "AI數據中心電力需求、氫能政策",
+      "catalysts": "✅ AI 數據中心電力需求\n✅ 氫能政策支持\n⚠️ 碳中和趨勢",
       "revenueGrowth": 35.87,
       "earningsGrowth": -98.96,
       "netMargin": 0.14,
@@ -143,7 +144,7 @@
       "targetPrice": 180,
       "riskReward": "1.1:1",
       "analysisDate": "2026-03-06",
-      "summary": "盈利暴跌99%，P/B極高，違反SEPA標準"
+      "summary": "⚠️ 違反 SEPA 標準！盈利暴跌 99%，淨利率僅 0.14%，P/B 高達 58 倍。雖然營收增長 36%，但缺乏盈利能力。股價由 $15 升到 $181，但基本面唔支持。不建議買入。"
     },
     {
       "symbol": "CRCL",
@@ -167,7 +168,7 @@
       "rsScore": 4,
       "riskScore": 4,
       "stage": "Stage 4 下跌期",
-      "catalysts": "USDC增長、加密牛市、監管明朗化",
+      "catalysts": "✅ USDC 市場份額增長\n✅ 加密貨幣牛市\n⚠️ 監管明朗化（雙刃劍）",
       "revenueGrowth": 76.92,
       "earningsGrowth": 4191.28,
       "netMargin": 17.32,
@@ -179,7 +180,7 @@
       "targetPrice": 150,
       "riskReward": "1.9:1",
       "analysisDate": "2026-03-06",
-      "summary": "股價跌65%，趨勢嚴重受損，需等待築底"
+      "summary": "🔴 股價暴跌 65%，趨勢嚴重受損。雖然基本面轉強（營收+77%，盈利+4191%），但已跌穿 200 EMA，冇買入形態。必須等待 $80-120 區間築底完成 + 突破訊號。SEPA 不建議現在買入。"
     }
   ]
 }
