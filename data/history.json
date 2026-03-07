@@ -1,13 +1,14 @@
 {
   "trades": [
     {
-      "date": "2026-03-05",
-      "symbol": "MSFT",
+      "date": "2026-03-07",
+      "symbol": "NVDA",
       "type": "buy",
-      "price": 410.00,
-      "quantity": 50,
-      "total": 20500,
-      "note": "SEPA 評分 79，突破後買入"
+      "price": 181.56,
+      "quantity": 55,
+      "total": 9985.80,
+      "autoBought": true,
+      "note": "Auto-buy: SEPA 85 >= 80"
     }
   ]
 }

@@ -1,17 +1,18 @@
 {
   "initialValue": 100000,
-  "cash": 79200,
+  "cash": 89142,
   "holdings": [
     {
-      "symbol": "MSFT",
-      "buyPrice": 410.00,
-      "currentPrice": 410.47,
-      "quantity": 50,
-      "buyDate": "2026-03-05",
-      "stopLoss": 365,
-      "targetPrice": 520,
-      "sepaScore": 79,
-      "note": "SEPA 評分 79，突破後買入"
+      "symbol": "NVDA",
+      "buyPrice": 181.56,
+      "currentPrice": 181.56,
+      "quantity": 55,
+      "buyDate": "2026-03-07",
+      "stopLoss": 163,
+      "targetPrice": 212,
+      "sepaScore": 85,
+      "autoBought": true,
+      "note": "Auto-buy: SEPA 85 >= 80"
     }
   ]
 }
