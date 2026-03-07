@@ -5,22 +5,22 @@
     "maxPositionSize": 10000,
     "maxPositions": 10,
     "currency": "HKD",
-    "lastCheck": "2026-03-07T09:30:00+08:00"
+    "lastCheck": "2026-03-07T12:15:00+08:00"
   },
   "watchlist": [
+    {
+      "symbol": "NVDA",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "addedDate": "2026-03-06",
+      "notes": "AI 晶片龍頭，SEPA 85"
+    },
     {
       "symbol": "MSFT",
       "exchange": "NASDAQ",
       "market": "US",
       "addedDate": "2026-03-06",
       "notes": "AI 雲端龍頭，等待回調買入"
-    },
-    {
-      "symbol": "NVDA",
-      "exchange": "NASDAQ",
-      "market": "US",
-      "addedDate": "2026-03-06",
-      "notes": "AI 晶片龍頭"
     },
     {
       "symbol": "9992.HK",
@@ -49,6 +49,41 @@
       "market": "US",
       "addedDate": "2026-03-06",
       "notes": "特斯拉"
+    },
+    {
+      "symbol": "0857.HK",
+      "exchange": "HKG",
+      "market": "HK",
+      "addedDate": "2026-03-07",
+      "notes": "中國石油，接近52週高位，收息股"
+    },
+    {
+      "symbol": "FCX",
+      "exchange": "NYSE",
+      "market": "US",
+      "addedDate": "2026-03-07",
+      "notes": "Freeport-McMoRan，銅礦，銅短缺主題"
+    },
+    {
+      "symbol": "SCCO",
+      "exchange": "NYSE",
+      "market": "US",
+      "addedDate": "2026-03-07",
+      "notes": "Southern Copper，基本面最強銅股"
+    },
+    {
+      "symbol": "AVAV",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "addedDate": "2026-03-07",
+      "notes": "AeroVironment，國防無人機 Switchblade"
+    },
+    {
+      "symbol": "KTOS",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "addedDate": "2026-03-07",
+      "notes": "Kratos Defense，無人戰鬥機"
     }
   ]
 }
