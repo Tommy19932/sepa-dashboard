@@ -215,7 +215,7 @@ function renderTradeHistory() {
     tbody.innerHTML = '';
     
     if (history.trades.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="loading">暫無交易記錄</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" class="loading">暫無交易記錄</td></tr>';
         return;
     }
     
@@ -225,15 +225,30 @@ function renderTradeHistory() {
     sortedTrades.forEach(trade => {
         const row = document.createElement('tr');
         const plClass = trade.pl !== undefined ? (trade.pl >= 0 ? 'profit' : 'loss') : '';
+        const autoBadge = trade.autoBought 
+            ? '<span class="badge auto">🤖 自動</span>' 
+            : '<span class="badge manual">👤 手動</span>';
+        const typeBadge = trade.type === 'buy' 
+            ? '<span class="badge buy">買入</span>' 
+            : '<span class="badge sell">賣出</span>';
+        
+        // Get SEPA score from analysis if available
+        let sepaScore = trade.sepaScore || '--';
+        if (sepaScore === '--' && analysis) {
+            const stock = analysis.stocks.find(s => s.symbol === trade.symbol);
+            if (stock) sepaScore = stock.sepaScore;
+        }
         
         row.innerHTML = `
             <td><small>${formatDate(trade.date)}</small></td>
             <td><strong>${trade.symbol}</strong></td>
-            <td><span class="badge ${trade.type === 'buy' ? 'buy' : 'avoid'}">${trade.type === 'buy' ? '買入' : '賣出'}</span></td>
+            <td>${typeBadge} ${autoBadge}</td>
             <td>${formatCurrency(trade.price)}</td>
             <td>${trade.quantity}</td>
-            <td>${formatCurrency(trade.total)}</td>
+            <td><strong>${formatCurrency(trade.total)}</strong></td>
+            <td class="score-cell ${getScoreClass(sepaScore)}">${sepaScore}</td>
             <td class="${plClass}">${trade.pl !== undefined ? formatCurrency(trade.pl) : '--'}</td>
+            <td class="note-cell"><small>${trade.note || '--'}</small></td>
         `;
         tbody.appendChild(row);
     });
