@@ -2,11 +2,15 @@
 
 let portfolio = null;
 let history = null;
+let watchlist = null;
+let analysis = null;
 
 // Initialize portfolio page
 async function initPortfolio() {
     portfolio = await loadData('portfolio.json');
     history = await loadData('history.json');
+    watchlist = await loadData('watchlist.json');
+    analysis = await loadData('analysis.json');
     
     if (!portfolio) {
         portfolio = {
@@ -25,6 +29,114 @@ async function initPortfolio() {
     renderPortfolio();
     renderTradeHistory();
     renderCharts();
+    renderAutoBuySettings();
+    checkAutoBuyCandidates();
+}
+
+// Render auto-buy settings
+function renderAutoBuySettings() {
+    const container = document.getElementById('autoBuySettings');
+    if (!container || !watchlist?.autoBuySettings) return;
+    
+    const settings = watchlist.autoBuySettings;
+    const statusClass = settings.enabled ? 'enabled' : 'disabled';
+    const statusText = settings.enabled ? '✅ 已啟用' : '❌ 已停用';
+    
+    container.innerHTML = `
+        <div class="auto-buy-header">
+            <h3>🤖 自動買入設定</h3>
+            <span class="auto-buy-status ${statusClass}">${statusText}</span>
+        </div>
+        <div class="auto-buy-details">
+            <div class="setting-item">
+                <span class="label">最低 SEPA 分數</span>
+                <span class="value">${settings.minScore} 分</span>
+            </div>
+            <div class="setting-item">
+                <span class="label">每隻股票上限</span>
+                <span class="value">$${settings.maxPositionSize.toLocaleString()}</span>
+            </div>
+            <div class="setting-item">
+                <span class="label">最多持倉數量</span>
+                <span class="value">${settings.maxPositions} 隻</span>
+            </div>
+            <div class="setting-item">
+                <span class="label">上次檢查</span>
+                <span class="value">${formatDate(settings.lastCheck)}</span>
+            </div>
+        </div>
+    `;
+}
+
+// Check and display auto-buy candidates
+function checkAutoBuyCandidates() {
+    const container = document.getElementById('autoBuyCandidates');
+    if (!container || !analysis || !watchlist?.autoBuySettings) return;
+    
+    const settings = watchlist.autoBuySettings;
+    const minScore = settings.minScore;
+    
+    // Filter stocks with score >= minScore and not already held
+    const heldSymbols = portfolio.holdings.map(h => h.symbol);
+    const candidates = analysis.stocks.filter(s => 
+        s.sepaScore >= minScore && 
+        !heldSymbols.includes(s.symbol) &&
+        s.recommendation === '買入'
+    );
+    
+    if (candidates.length === 0) {
+        container.innerHTML = `
+            <div class="no-candidates">
+                <span>📭</span>
+                <p>目前沒有符合條件的自動買入候選股</p>
+                <small>需要 SEPA 分數 ≥ ${minScore} 且建議為「買入」</small>
+            </div>
+        `;
+        return;
+    }
+    
+    container.innerHTML = `
+        <h4>🎯 自動買入候選 (${candidates.length})</h4>
+        <div class="candidates-list">
+            ${candidates.map(s => `
+                <div class="candidate-card">
+                    <div class="candidate-header">
+                        <span class="symbol">${s.symbol}</span>
+                        <span class="score ${getScoreClass(s.sepaScore)}">${s.sepaScore}</span>
+                    </div>
+                    <div class="candidate-details">
+                        <div class="detail-row">
+                            <span>現價</span>
+                            <span>${formatCurrency(s.price)}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>止損</span>
+                            <span class="stop-loss">${formatCurrency(s.stopLoss)}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span>目標</span>
+                            <span class="target">${formatCurrency(s.targetPrice)}</span>
+                        </div>
+                    </div>
+                    <button class="btn-buy" onclick="manualBuy('${s.symbol}', ${s.price}, ${s.stopLoss})">
+                        手動買入
+                    </button>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+// Manual buy from candidate
+function manualBuy(symbol, price, stopLoss) {
+    document.getElementById('tradeSymbol').value = symbol;
+    document.getElementById('tradeType').value = 'buy';
+    document.getElementById('tradePrice').value = price;
+    document.getElementById('tradeStopLoss').value = stopLoss;
+    document.getElementById('tradeDate').valueAsDate = new Date();
+    
+    // Scroll to form
+    document.getElementById('tradeForm').scrollIntoView({ behavior: 'smooth' });
 }
 
 // Render portfolio overview

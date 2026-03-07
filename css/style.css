@@ -584,3 +584,194 @@ footer {
         padding: 1rem;
     }
 }
+
+/* Auto-Buy Section */
+.auto-buy-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.auto-buy-panel {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.auto-buy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.auto-buy-header h3 {
+    font-size: 1rem;
+    color: var(--dark);
+}
+
+.auto-buy-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.auto-buy-status.enabled {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+}
+
+.auto-buy-status.disabled {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--danger);
+}
+
+.auto-buy-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auto-buy-details .setting-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+
+.auto-buy-details .label {
+    color: #6b7280;
+}
+
+.auto-buy-details .value {
+    font-weight: 600;
+    color: var(--dark);
+}
+
+/* Auto-Buy Candidates */
+.auto-buy-candidates {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.auto-buy-candidates h4 {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.candidates-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.candidate-card {
+    background: var(--body-bg);
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid var(--border);
+}
+
+.candidate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.candidate-header .symbol {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.candidate-header .score {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.candidate-details {
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0;
+    color: #6b7280;
+}
+
+.detail-row .stop-loss {
+    color: var(--danger);
+}
+
+.detail-row .target {
+    color: var(--success);
+}
+
+.btn-buy {
+    width: 100%;
+    padding: 0.5rem;
+    background: var(--success);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-buy:hover {
+    background: #059669;
+}
+
+.no-candidates {
+    text-align: center;
+    padding: 2rem;
+    color: #9ca3af;
+}
+
+.no-candidates span {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.no-candidates small {
+    font-size: 0.75rem;
+}
+
+/* Score classes */
+.score-high {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--success);
+}
+
+.score-mid {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--warning);
+}
+
+.score-low {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--danger);
+}
+
+/* Responsive for auto-buy */
+@media (max-width: 768px) {
+    .auto-buy-section {
+        grid-template-columns: 1fr;
+    }
+}

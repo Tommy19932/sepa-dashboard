@@ -1,4 +1,12 @@
 {
+  "autoBuySettings": {
+    "enabled": true,
+    "minScore": 80,
+    "maxPositionSize": 10000,
+    "maxPositions": 10,
+    "currency": "HKD",
+    "lastCheck": "2026-03-07T06:00:00+08:00"
+  },
   "watchlist": [
     {
       "symbol": "MSFT",
