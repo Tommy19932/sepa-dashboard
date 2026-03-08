@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T01:00:00+08:00",
+  "lastUpdated": "2026-03-09T02:00:00+08:00",
   "analyses": [
     {
       "symbol": "NVDA",
@@ -54,7 +54,7 @@
         "volumePattern": "Neutral",
         "vcpStage": "Stage 1"
       },
-      "catalysts": ["Blind box demand", "IP expansion", " Overseas growth"],
+      "catalysts": ["Blind box demand", "IP expansion", "Overseas growth"],
       "riskLevel": "Medium",
       "recommendation": "Watch"
     },
@@ -215,55 +215,55 @@
     {
       "symbol": "NVDA",
       "score": 94,
-      "price": 912.35,
-      "suggestedBuyPrice": 895.00,
-      "stopLoss": 820.00,
-      "targetPrice": 1100.00
+      "price": 918.50,
+      "suggestedBuyPrice": 900.00,
+      "stopLoss": 825.00,
+      "targetPrice": 1120.00
     },
     {
       "symbol": "MSFT",
       "score": 89,
-      "price": 438.50,
-      "suggestedBuyPrice": 430.00,
-      "stopLoss": 395.00,
-      "targetPrice": 520.00
+      "price": 441.20,
+      "suggestedBuyPrice": 432.00,
+      "stopLoss": 398.00,
+      "targetPrice": 525.00
     },
     {
       "symbol": "SCCO",
       "score": 88,
-      "price": 125.80,
-      "suggestedBuyPrice": 122.00,
-      "stopLoss": 112.00,
-      "targetPrice": 150.00
+      "price": 127.45,
+      "suggestedBuyPrice": 124.00,
+      "stopLoss": 114.00,
+      "targetPrice": 155.00
     },
     {
       "symbol": "FCX",
       "score": 86,
-      "price": 48.50,
-      "suggestedBuyPrice": 46.50,
-      "stopLoss": 42.00,
-      "targetPrice": 58.00
+      "price": 49.85,
+      "suggestedBuyPrice": 47.50,
+      "stopLoss": 43.00,
+      "targetPrice": 60.00
     },
     {
       "symbol": "AVAV",
       "score": 82,
-      "price": 185.20,
-      "suggestedBuyPrice": 178.00,
-      "stopLoss": 162.00,
-      "targetPrice": 220.00
+      "price": 188.75,
+      "suggestedBuyPrice": 182.00,
+      "stopLoss": 165.00,
+      "targetPrice": 225.00
     },
     {
       "symbol": "KTOS",
       "score": 80,
-      "price": 32.45,
-      "suggestedBuyPrice": 31.00,
-      "stopLoss": 28.50,
-      "targetPrice": 40.00
+      "price": 33.20,
+      "suggestedBuyPrice": 31.50,
+      "stopLoss": 29.00,
+      "targetPrice": 42.00
     }
   ],
   "marketSummary": {
-    "sp500": { "change": "+0.42%", "trend": "Bullish" },
-    "nasdaq": { "change": "+0.68%", "trend": "Bullish" },
-    "hsi": { "change": "-0.15%", "trend": "Neutral" }
+    "sp500": { "change": "+0.38%", "trend": "Bullish" },
+    "nasdaq": { "change": "+0.55%", "trend": "Bullish" },
+    "hsi": { "change": "-0.22%", "trend": "Neutral" }
   }
 }
