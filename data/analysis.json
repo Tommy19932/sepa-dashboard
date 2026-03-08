@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T00:00:00+08:00",
+  "lastUpdated": "2026-03-09T01:00:00+08:00",
   "analyses": [
     {
       "symbol": "NVDA",
@@ -21,25 +21,6 @@
       "recommendation": "Strong Buy"
     },
     {
-      "symbol": "AAPL",
-      "score": 72,
-      "trend": "Stage 3 - Top formation",
-      "fundamentals": {
-        "earningsGrowth": 58,
-        "revenueGrowth": 52,
-        "profitMargin": 84,
-        "roe": 75
-      },
-      "technical": {
-        "rsRating": 68,
-        "volumePattern": "Neutral",
-        "vcpStage": "None"
-      },
-      "catalysts": ["iPhone 18 launch", "Apple Intelligence"],
-      "riskLevel": "Low",
-      "recommendation": "Hold"
-    },
-    {
       "symbol": "MSFT",
       "score": 89,
       "trend": "Stage 2 - Uptrend",
@@ -59,80 +40,23 @@
       "recommendation": "Buy"
     },
     {
-      "symbol": "TSLA",
-      "score": 62,
-      "trend": "Stage 4 - Downtrend",
+      "symbol": "9992.HK",
+      "score": 72,
+      "trend": "Stage 1 - Basing",
       "fundamentals": {
-        "earningsGrowth": 38,
-        "revenueGrowth": 52,
-        "profitMargin": 35,
-        "roe": 48
+        "earningsGrowth": 55,
+        "revenueGrowth": 48,
+        "profitMargin": 62,
+        "roe": 58
       },
       "technical": {
-        "rsRating": 48,
-        "volumePattern": "Distribution",
-        "vcpStage": "None"
-      },
-      "catalysts": ["FSD progress", "Robotaxi launch", "Energy storage"],
-      "riskLevel": "High",
-      "recommendation": "Avoid"
-    },
-    {
-      "symbol": "AMZN",
-      "score": 84,
-      "trend": "Stage 2 - Uptrend",
-      "fundamentals": {
-        "earningsGrowth": 75,
-        "revenueGrowth": 78,
-        "profitMargin": 68,
-        "roe": 72
-      },
-      "technical": {
-        "rsRating": 87,
-        "volumePattern": "Accumulation",
-        "vcpStage": "Stage 2"
-      },
-      "catalysts": ["AWS AI growth", "E-commerce recovery", "Prime expansion"],
-      "riskLevel": "Medium",
-      "recommendation": "Buy"
-    },
-    {
-      "symbol": "META",
-      "score": 87,
-      "trend": "Stage 2 - Uptrend",
-      "fundamentals": {
-        "earningsGrowth": 82,
-        "revenueGrowth": 75,
-        "profitMargin": 78,
-        "roe": 85
-      },
-      "technical": {
-        "rsRating": 85,
-        "volumePattern": "Accumulation",
-        "vcpStage": "Stage 1"
-      },
-      "catalysts": ["Llama AI dominance", "Ad recovery", "Reality Labs progress"],
-      "riskLevel": "Medium",
-      "recommendation": "Buy"
-    },
-    {
-      "symbol": "GOOGL",
-      "score": 76,
-      "trend": "Stage 2 - Uptrend",
-      "fundamentals": {
-        "earningsGrowth": 62,
-        "revenueGrowth": 68,
-        "profitMargin": 70,
-        "roe": 72
-      },
-      "technical": {
-        "rsRating": 75,
+        "rsRating": 65,
         "volumePattern": "Neutral",
         "vcpStage": "Stage 1"
       },
-      "catalysts": ["Gemini AI", "Cloud growth", "YouTube revenue"],
-      "riskLevel": "Low",
-      "recommendation": "Hold"
+      "catalysts": ["Blind box demand", "IP expansion", " Overseas growth"],
+      "riskLevel": "Medium",
+      "recommendation": "Watch"
     },
     {
       "symbol": "700.HK",
@@ -154,42 +78,137 @@
       "recommendation": "Watch"
     },
     {
-      "symbol": "9988.HK",
-      "score": 68,
-      "trend": "Stage 3 - Late stage",
+      "symbol": "AAPL",
+      "score": 72,
+      "trend": "Stage 3 - Top formation",
       "fundamentals": {
-        "earningsGrowth": 42,
-        "revenueGrowth": 48,
-        "profitMargin": 48,
-        "roe": 52
+        "earningsGrowth": 58,
+        "revenueGrowth": 52,
+        "profitMargin": 84,
+        "roe": 75
       },
       "technical": {
-        "rsRating": 55,
+        "rsRating": 68,
         "volumePattern": "Neutral",
-        "vcpStage": "Stage 1"
+        "vcpStage": "None"
       },
-      "catalysts": ["China stimulus", "E-commerce pivot", "Cloud segment"],
-      "riskLevel": "Medium",
-      "recommendation": "Watch"
+      "catalysts": ["iPhone 18 launch", "Apple Intelligence"],
+      "riskLevel": "Low",
+      "recommendation": "Hold"
     },
     {
-      "symbol": "3690.HK",
-      "score": 55,
+      "symbol": "TSLA",
+      "score": 62,
       "trend": "Stage 4 - Downtrend",
       "fundamentals": {
-        "earningsGrowth": 25,
-        "revenueGrowth": 32,
+        "earningsGrowth": 38,
+        "revenueGrowth": 52,
         "profitMargin": 35,
-        "roe": 38
+        "roe": 48
       },
       "technical": {
-        "rsRating": 35,
+        "rsRating": 48,
         "volumePattern": "Distribution",
         "vcpStage": "None"
       },
-      "catalysts": ["China consumption recovery"],
+      "catalysts": ["FSD progress", "Robotaxi launch", "Energy storage"],
       "riskLevel": "High",
       "recommendation": "Avoid"
+    },
+    {
+      "symbol": "0857.HK",
+      "score": 78,
+      "trend": "Stage 2 - Uptrend",
+      "fundamentals": {
+        "earningsGrowth": 45,
+        "revenueGrowth": 38,
+        "profitMargin": 72,
+        "roe": 68
+      },
+      "technical": {
+        "rsRating": 82,
+        "volumePattern": "Accumulation",
+        "vcpStage": "Stage 2"
+      },
+      "catalysts": ["Near 52-week high", "Dividend yield", "Oil price support"],
+      "riskLevel": "Low",
+      "recommendation": "Buy"
+    },
+    {
+      "symbol": "FCX",
+      "score": 86,
+      "trend": "Stage 2 - Uptrend",
+      "fundamentals": {
+        "earningsGrowth": 72,
+        "revenueGrowth": 65,
+        "profitMargin": 58,
+        "roe": 75
+      },
+      "technical": {
+        "rsRating": 88,
+        "volumePattern": "Accumulation",
+        "vcpStage": "Stage 2"
+      },
+      "catalysts": ["Copper shortage thesis", "EV demand", "Grid infrastructure"],
+      "riskLevel": "Medium",
+      "recommendation": "Buy"
+    },
+    {
+      "symbol": "SCCO",
+      "score": 88,
+      "trend": "Stage 2 - Uptrend",
+      "fundamentals": {
+        "earningsGrowth": 78,
+        "revenueGrowth": 70,
+        "profitMargin": 65,
+        "roe": 82
+      },
+      "technical": {
+        "rsRating": 90,
+        "volumePattern": "Accumulation",
+        "vcpStage": "Stage 1"
+      },
+      "catalysts": ["Strongest copper fundamentals", "Dividend growth", "Copper shortage"],
+      "riskLevel": "Medium",
+      "recommendation": "Buy"
+    },
+    {
+      "symbol": "AVAV",
+      "score": 82,
+      "trend": "Stage 2 - Uptrend",
+      "fundamentals": {
+        "earningsGrowth": 68,
+        "revenueGrowth": 72,
+        "profitMargin": 48,
+        "roe": 55
+      },
+      "technical": {
+        "rsRating": 85,
+        "volumePattern": "Accumulation",
+        "vcpStage": "Stage 1"
+      },
+      "catalysts": ["Defense spending", "Switchblade drones", "Ukraine demand"],
+      "riskLevel": "Medium",
+      "recommendation": "Buy"
+    },
+    {
+      "symbol": "KTOS",
+      "score": 80,
+      "trend": "Stage 2 - Uptrend",
+      "fundamentals": {
+        "earningsGrowth": 62,
+        "revenueGrowth": 68,
+        "profitMargin": 45,
+        "roe": 52
+      },
+      "technical": {
+        "rsRating": 82,
+        "volumePattern": "Accumulation",
+        "vcpStage": "Stage 1"
+      },
+      "catalysts": ["Combat drone demand", "Defense budget growth", "Navy contracts"],
+      "riskLevel": "Medium",
+      "recommendation": "Buy"
     }
   ],
   "autoBuyCandidates": [
@@ -210,25 +229,41 @@
       "targetPrice": 520.00
     },
     {
-      "symbol": "META",
-      "score": 87,
-      "price": 528.90,
-      "suggestedBuyPrice": 515.00,
-      "stopLoss": 475.00,
-      "targetPrice": 650.00
+      "symbol": "SCCO",
+      "score": 88,
+      "price": 125.80,
+      "suggestedBuyPrice": 122.00,
+      "stopLoss": 112.00,
+      "targetPrice": 150.00
     },
     {
-      "symbol": "AMZN",
-      "score": 84,
-      "price": 192.45,
-      "suggestedBuyPrice": 185.00,
-      "stopLoss": 168.00,
-      "targetPrice": 235.00
+      "symbol": "FCX",
+      "score": 86,
+      "price": 48.50,
+      "suggestedBuyPrice": 46.50,
+      "stopLoss": 42.00,
+      "targetPrice": 58.00
+    },
+    {
+      "symbol": "AVAV",
+      "score": 82,
+      "price": 185.20,
+      "suggestedBuyPrice": 178.00,
+      "stopLoss": 162.00,
+      "targetPrice": 220.00
+    },
+    {
+      "symbol": "KTOS",
+      "score": 80,
+      "price": 32.45,
+      "suggestedBuyPrice": 31.00,
+      "stopLoss": 28.50,
+      "targetPrice": 40.00
     }
   ],
   "marketSummary": {
-    "sp500": { "change": "+0.85%", "trend": "Bullish" },
-    "nasdaq": { "change": "+1.12%", "trend": "Bullish" },
-    "hsi": { "change": "-0.32%", "trend": "Neutral" }
+    "sp500": { "change": "+0.42%", "trend": "Bullish" },
+    "nasdaq": { "change": "+0.68%", "trend": "Bullish" },
+    "hsi": { "change": "-0.15%", "trend": "Neutral" }
   }
 }
