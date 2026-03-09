@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T04:00:00+08:00",
+  "lastUpdated": "2026-03-10T05:00:00+08:00",
   "cash": 85000,
   "totalValue": 105000,
   "currency": "HKD",
@@ -8,10 +8,10 @@
       "symbol": "NVDA",
       "shares": 5,
       "avgCost": 850.00,
-      "currentPrice": 182.50,
-      "value": 912.50,
-      "pl": -3337.50,
-      "plPercent": -78.53,
+      "currentPrice": 182.65,
+      "value": 913.25,
+      "pl": -3336.75,
+      "plPercent": -78.51,
       "buyDate": "2026-03-06",
       "autoBought": true
     },
@@ -19,10 +19,10 @@
       "symbol": "MSFT",
       "shares": 10,
       "avgCost": 415.00,
-      "currentPrice": 409.32,
-      "value": 4093.20,
-      "pl": -56.80,
-      "plPercent": -1.37,
+      "currentPrice": 409.41,
+      "value": 4094.10,
+      "pl": -55.90,
+      "plPercent": -1.35,
       "buyDate": "2026-03-06",
       "autoBought": true
     },
@@ -50,7 +50,7 @@
     }
   ],
   "performance": {
-    "totalPL": -1299.68,
+    "totalPL": -1298.03,
     "totalPLPercent": -6.18,
     "winRate": 50,
     "tradesCount": 4
