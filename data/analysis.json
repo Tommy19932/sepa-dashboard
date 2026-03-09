@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "2026-03-10T02:00:00+08:00",
+  "lastUpdate": "2026-03-10T03:00:00+08:00",
   "stocks": [
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "price": 179.67,
-      "changePercent": 1.04,
+      "price": 179.33,
+      "changePercent": 0.85,
       "low52w": 86.62,
       "high52w": 212.19,
-      "vsHigh": -15.3,
-      "vsLow": 107.6,
+      "vsHigh": -15.5,
+      "vsLow": 107.2,
       "sepaScore": 94,
       "recommendation": "買入",
       "trendScore": 9,
@@ -32,13 +32,13 @@
       "targetPrice": 220.00,
       "riskReward": "1:2.7",
       "summary": "AI晶片龍頭，基本面極強，營收增長73%，淨利率63%，ROA 60%。技術面強勢，RS評分滿分。從52週高位回調15%，提供良好買入機會。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
-      "price": 405.00,
-      "changePercent": 0.99,
+      "price": 404.81,
+      "changePercent": 1.01,
       "low52w": 344.79,
       "high52w": 555.45,
       "vsHigh": -27.1,
@@ -65,17 +65,17 @@
       "targetPrice": 480.00,
       "riskReward": "1:2.8",
       "summary": "AI雲端龍頭，基本面穩健，盈利增長60%，淨利率47%。從高位回調27%，估值合理，適合中長期持有。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "SCCO",
       "name": "Southern Copper",
-      "price": 185.04,
-      "changePercent": 0.04,
+      "price": 186.13,
+      "changePercent": 0.63,
       "low52w": 72.13,
       "high52w": 223.89,
-      "vsHigh": -17.4,
-      "vsLow": 156.6,
+      "vsHigh": -16.9,
+      "vsLow": 158.1,
       "sepaScore": 88,
       "recommendation": "買入",
       "trendScore": 9,
@@ -98,17 +98,17 @@
       "targetPrice": 230.00,
       "riskReward": "1:2.2",
       "summary": "基本面最強銅股，營收增長39%，盈利增長65%，淨利率34%，ROA 25%。52週升幅155%，銅短缺長期主題。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "FCX",
       "name": "Freeport-McMoRan",
-      "price": 58.14,
-      "changePercent": 2.06,
+      "price": 58.51,
+      "changePercent": 1.43,
       "low52w": 27.66,
       "high52w": 69.75,
-      "vsHigh": -16.6,
-      "vsLow": 110.2,
+      "vsHigh": -16.1,
+      "vsLow": 111.4,
       "sepaScore": 86,
       "recommendation": "買入",
       "trendScore": 8,
@@ -131,17 +131,17 @@
       "targetPrice": 72.00,
       "riskReward": "1:2.0",
       "summary": "全球最大銅礦商之一，52週升幅110%。雖然營收略跌，但盈利增長48%。銅短缺長期主題受益者。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "AVAV",
       "name": "AeroVironment",
-      "price": 223.14,
-      "changePercent": 2.90,
+      "price": 222.85,
+      "changePercent": 3.03,
       "low52w": 102.25,
       "high52w": 417.86,
-      "vsHigh": -46.6,
-      "vsLow": 118.2,
+      "vsHigh": -46.7,
+      "vsLow": 118.0,
       "sepaScore": 82,
       "recommendation": "買入",
       "trendScore": 7,
@@ -164,17 +164,17 @@
       "targetPrice": 300.00,
       "riskReward": "1:1.9",
       "summary": "國防無人機龍頭，營收暴增151%，但暫時虧損。從高位回調46%，BlueHalo收購整合中。國防預算增長受益者。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "KTOS",
       "name": "Kratos Defense",
-      "price": 92.05,
-      "changePercent": 5.80,
+      "price": 91.73,
+      "changePercent": 5.44,
       "low52w": 25.78,
       "high52w": 134.00,
-      "vsHigh": -31.3,
-      "vsLow": 257.1,
+      "vsHigh": -31.5,
+      "vsLow": 255.9,
       "sepaScore": 80,
       "recommendation": "買入",
       "trendScore": 7,
@@ -197,7 +197,7 @@
       "targetPrice": 115.00,
       "riskReward": "1:1.7",
       "summary": "無人戰鬥機概念股，52週升幅256%。盈利增長51%，但淨利率偏低。P/E極高，屬成長股。國防主題。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "0857.HK",
@@ -230,7 +230,7 @@
       "targetPrice": 12.50,
       "riskReward": "1:3.0",
       "summary": "接近52週高位，收息股。ROA 5%，P/E 8.5倍估值便宜。油價支撐，適合保守投資者。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "700.HK",
@@ -263,7 +263,7 @@
       "targetPrice": 600.00,
       "riskReward": "1:2.3",
       "summary": "互聯網龍頭，基本面穩健，淨利率33%。從高位回調24%，仍在築底階段。等待突破訊號。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "9992.HK",
@@ -296,17 +296,17 @@
       "targetPrice": 260.00,
       "riskReward": "1:2.0",
       "summary": "盲盒龍頭，營收暴增204%，盈利增長396%，ROA 34%極強。但從高位回調39%，仍在築底。觀察突破。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
-      "price": 256.12,
-      "changePercent": 0.52,
+      "price": 257.31,
+      "changePercent": 0.04,
       "low52w": 169.21,
       "high52w": 288.62,
-      "vsHigh": -11.2,
-      "vsLow": 51.4,
+      "vsHigh": -10.9,
+      "vsLow": 52.0,
       "sepaScore": 72,
       "recommendation": "觀察",
       "trendScore": 6,
@@ -329,17 +329,17 @@
       "targetPrice": 300.00,
       "riskReward": "1:2.6",
       "summary": "基本面穩健但增長放緩。接近52週高位，技術面呈現頂部形成跡象。建議持有或等待回調。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
-      "price": 390.05,
-      "changePercent": 1.68,
+      "price": 392.38,
+      "changePercent": 1.10,
       "low52w": 214.25,
       "high52w": 498.83,
-      "vsHigh": -21.8,
-      "vsLow": 82.1,
+      "vsHigh": -21.3,
+      "vsLow": 83.1,
       "sepaScore": 62,
       "recommendation": "避開",
       "trendScore": 4,
@@ -362,14 +362,14 @@
       "targetPrice": 450.00,
       "riskReward": "1:1.5",
       "summary": "營收下跌3%，盈利暴跌61%，淨利率僅3.4%。P/E 363倍極高估值。技術面呈下跌趨勢，建議避開。",
-      "analysisDate": "2026-03-10T02:00:00+08:00"
+      "analysisDate": "2026-03-10T03:00:00+08:00"
     }
   ],
   "autoBuyCandidates": [
     {
       "symbol": "NVDA",
       "sepaScore": 94,
-      "price": 179.67,
+      "price": 179.33,
       "suggestedBuyPrice": 175.00,
       "stopLoss": 162.00,
       "targetPrice": 220.00
@@ -377,7 +377,7 @@
     {
       "symbol": "MSFT",
       "sepaScore": 89,
-      "price": 405.00,
+      "price": 404.81,
       "suggestedBuyPrice": 400.00,
       "stopLoss": 380.00,
       "targetPrice": 480.00
@@ -385,7 +385,7 @@
     {
       "symbol": "SCCO",
       "sepaScore": 88,
-      "price": 185.04,
+      "price": 186.13,
       "suggestedBuyPrice": 178.00,
       "stopLoss": 165.00,
       "targetPrice": 230.00
@@ -393,7 +393,7 @@
     {
       "symbol": "FCX",
       "sepaScore": 86,
-      "price": 58.14,
+      "price": 58.51,
       "suggestedBuyPrice": 55.00,
       "stopLoss": 52.00,
       "targetPrice": 72.00
@@ -401,7 +401,7 @@
     {
       "symbol": "AVAV",
       "sepaScore": 82,
-      "price": 223.14,
+      "price": 222.85,
       "suggestedBuyPrice": 215.00,
       "stopLoss": 200.00,
       "targetPrice": 300.00
@@ -409,7 +409,7 @@
     {
       "symbol": "KTOS",
       "sepaScore": 80,
-      "price": 92.05,
+      "price": 91.73,
       "suggestedBuyPrice": 88.00,
       "stopLoss": 82.00,
       "targetPrice": 115.00
