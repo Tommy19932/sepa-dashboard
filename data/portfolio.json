@@ -1,18 +1,58 @@
 {
-  "initialValue": 100000,
-  "cash": 90014.20,
+  "lastUpdated": "2026-03-10T04:00:00+08:00",
+  "cash": 85000,
+  "totalValue": 105000,
+  "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
-      "buyPrice": 181.56,
-      "currentPrice": 179.33,
-      "quantity": 55,
+      "shares": 5,
+      "avgCost": 850.00,
+      "currentPrice": 182.50,
+      "value": 912.50,
+      "pl": -3337.50,
+      "plPercent": -78.53,
+      "buyDate": "2026-03-06",
+      "autoBought": true
+    },
+    {
+      "symbol": "MSFT",
+      "shares": 10,
+      "avgCost": 415.00,
+      "currentPrice": 409.32,
+      "value": 4093.20,
+      "pl": -56.80,
+      "plPercent": -1.37,
+      "buyDate": "2026-03-06",
+      "autoBought": true
+    },
+    {
+      "symbol": "META",
+      "shares": 8,
+      "avgCost": 490.00,
+      "currentPrice": 647.39,
+      "value": 5179.12,
+      "pl": 1259.12,
+      "plPercent": 32.12,
       "buyDate": "2026-03-07",
-      "stopLoss": 163,
-      "targetPrice": 212,
-      "sepaScore": 85,
-      "autoBought": true,
-      "note": "Auto-buy: SEPA 85 >= 80"
+      "autoBought": true
+    },
+    {
+      "symbol": "AMZN",
+      "shares": 25,
+      "avgCost": 180.00,
+      "currentPrice": 213.42,
+      "value": 5335.50,
+      "pl": 835.50,
+      "plPercent": 18.57,
+      "buyDate": "2026-03-07",
+      "autoBought": true
     }
-  ]
+  ],
+  "performance": {
+    "totalPL": -1299.68,
+    "totalPLPercent": -6.18,
+    "winRate": 50,
+    "tradesCount": 4
+  }
 }
