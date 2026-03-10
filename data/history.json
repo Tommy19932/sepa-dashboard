@@ -14,6 +14,51 @@
       "targetPrice": 212,
       "autoBought": true,
       "note": "Auto-buy: SEPA 85 >= 80"
+    },
+    {
+      "id": "T002",
+      "date": "2026-03-10T19:30:00+08:00",
+      "symbol": "SCCO",
+      "name": "Southern Copper Corp.",
+      "type": "buy",
+      "price": 190.64,
+      "quantity": 6,
+      "total": 1143.84,
+      "sepaScore": 88,
+      "stopLoss": 171.58,
+      "targetPrice": 240.00,
+      "autoBought": true,
+      "note": "Auto-buy: SEPA 88 >= 80"
+    },
+    {
+      "id": "T003",
+      "date": "2026-03-10T19:30:00+08:00",
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "type": "buy",
+      "price": 409.41,
+      "quantity": 3,
+      "total": 1228.23,
+      "sepaScore": 85,
+      "stopLoss": 368.00,
+      "targetPrice": 480.00,
+      "autoBought": true,
+      "note": "Auto-buy: SEPA 85 >= 80"
+    },
+    {
+      "id": "T004",
+      "date": "2026-03-10T19:30:00+08:00",
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "type": "buy",
+      "price": 60.49,
+      "quantity": 21,
+      "total": 1270.29,
+      "sepaScore": 82,
+      "stopLoss": 54.44,
+      "targetPrice": 75.00,
+      "autoBought": true,
+      "note": "Auto-buy: SEPA 82 >= 80"
     }
   ]
 }

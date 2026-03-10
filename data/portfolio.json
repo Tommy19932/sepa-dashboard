@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-10T09:30:00+08:00",
+  "lastUpdated": "2026-03-10T19:30:00+08:00",
   "initialValue": 100000,
-  "cash": 90014.20,
+  "cash": 61603.80,
   "holdings": [
     {
       "symbol": "NVDA",
@@ -9,7 +9,38 @@
       "buyPrice": 181.56,
       "currentPrice": 182.65,
       "stopLoss": 164.00,
+      "targetPrice": 220.00,
       "buyDate": "2026-03-06",
+      "autoBought": true
+    },
+    {
+      "symbol": "SCCO",
+      "quantity": 6,
+      "buyPrice": 190.64,
+      "currentPrice": 190.64,
+      "stopLoss": 171.58,
+      "targetPrice": 240.00,
+      "buyDate": "2026-03-10",
+      "autoBought": true
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 3,
+      "buyPrice": 409.41,
+      "currentPrice": 409.41,
+      "stopLoss": 368.00,
+      "targetPrice": 480.00,
+      "buyDate": "2026-03-10",
+      "autoBought": true
+    },
+    {
+      "symbol": "FCX",
+      "quantity": 21,
+      "buyPrice": 60.49,
+      "currentPrice": 60.49,
+      "stopLoss": 54.44,
+      "targetPrice": 75.00,
+      "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
@@ -17,6 +48,6 @@
     "totalPL": 59.95,
     "totalPLPercent": 0.06,
     "winRate": 100,
-    "tradesCount": 1
+    "tradesCount": 4
   }
 }
