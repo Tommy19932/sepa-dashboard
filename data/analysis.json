@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-11T04:10:00+08:00",
+  "lastUpdate": "2026-03-11T05:15:00+08:00",
   "stocks": [
     {
       "symbol": "NVDA",
@@ -26,13 +26,13 @@
       "roa": 60,
       "pe": 37.72,
       "pb": 28.23,
-      "marketCap": 4480000000000,
+      "marketCap": 4490000000000,
       "catalysts": "AI需求強勁，數據中心業務高速增長，Blackwell芯片需求爆發，GTC大會催化劑",
       "stopLoss": 166.00,
       "targetPrice": 220.00,
       "riskReward": "1:2.0",
       "summary": "AI晶片龍頭，距52週高僅13%，營收淨利雙位數增長，技術面強勢，距低位反彈113%",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "AAPL",
@@ -65,7 +65,7 @@
       "targetPrice": 295.00,
       "riskReward": "1:1.4",
       "summary": "距52週高僅10%，增長動力放緩，估值偏高，建議等待突破或回調再入場",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "MSFT",
@@ -98,7 +98,7 @@
       "targetPrice": 480.00,
       "riskReward": "1:1.8",
       "summary": "基本面強勁，淨利增長60%，距52週高27%有上升空間，雲+AI雙引擎驅動",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "TSLA",
@@ -131,7 +131,7 @@
       "targetPrice": 450.00,
       "riskReward": "1:2.2",
       "summary": "營收下滑，淨利暴跌61%，PE超高371，英國銷量跌37%，技術面弱勢，暫時避開",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "AMZN",
@@ -164,7 +164,7 @@
       "targetPrice": 265.00,
       "riskReward": "1:2.4",
       "summary": "距52週高17%，AWS雲業務穩健增長，現金流強勁，AWS推出AI醫療平台",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "META",
@@ -197,7 +197,7 @@
       "targetPrice": 790.00,
       "riskReward": "1:2.1",
       "summary": "Magnificent 7中表現最佳，營收增長24%，PE僅23估值合理，AI+廣告雙引擎",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "GOOGL",
@@ -230,7 +230,7 @@
       "targetPrice": 360.00,
       "riskReward": "1:1.6",
       "summary": "距52週高僅12%，從低位反彈119%，營收淨利雙增長，但AI競爭激烈需觀察",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "700.HK",
@@ -263,7 +263,7 @@
       "targetPrice": 650.00,
       "riskReward": "1:2.0",
       "summary": "單日大漲7.27%突破，估值合理PE僅21，遊戲+社交雙核心，AI Agent催化劑強勁",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "9988.HK",
@@ -296,7 +296,7 @@
       "targetPrice": 160.00,
       "riskReward": "1:2.1",
       "summary": "單日上漲3.73%，估值便宜PE僅18，距52週高28%有上升空間，等待中國市場復甦",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     },
     {
       "symbol": "3690.HK",
@@ -329,7 +329,7 @@
       "targetPrice": 95.00,
       "riskReward": "1:1.9",
       "summary": "距52週高57%嚴重落後，錄得巨額虧損，負利潤率-20%，技術面極弱，暫時避開",
-      "analysisDate": "2026-03-11T04:10:00+08:00"
+      "analysisDate": "2026-03-11T05:15:00+08:00"
     }
   ],
   "autoBuyCandidates": [
