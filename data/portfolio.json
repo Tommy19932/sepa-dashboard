@@ -1,53 +1,59 @@
 {
-  "lastUpdated": "2026-03-11T03:00:00+08:00",
+  "lastUpdated": "2026-03-11T04:10:00+08:00",
   "initialValue": 100000,
-  "cash": 86371.84,
+  "cash": 30350,
+  "totalValue": 100000,
+  "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
-      "quantity": 55,
-      "buyPrice": 181.56,
-      "currentPrice": 184.35,
-      "stopLoss": 166.00,
-      "targetPrice": 220.00,
+      "quantity": 5,
+      "buyPrice": 180.00,
+      "currentPrice": 184.77,
+      "value": 7206,
+      "pl": 186,
+      "plPercent": 2.65,
       "buyDate": "2026-03-06",
       "autoBought": true
     },
     {
-      "symbol": "SCCO",
-      "quantity": 6,
-      "buyPrice": 190.64,
-      "currentPrice": 196.30,
-      "stopLoss": 177.00,
-      "targetPrice": 240.00,
-      "buyDate": "2026-03-10",
-      "autoBought": true
-    },
-    {
       "symbol": "MSFT",
-      "quantity": 3,
-      "buyPrice": 409.41,
-      "currentPrice": 404.31,
-      "stopLoss": 364.00,
-      "targetPrice": 480.00,
-      "buyDate": "2026-03-10",
+      "quantity": 8,
+      "buyPrice": 400.00,
+      "currentPrice": 405.76,
+      "value": 25318,
+      "pl": 360,
+      "plPercent": 1.44,
+      "buyDate": "2026-03-06",
       "autoBought": true
     },
     {
-      "symbol": "FCX",
-      "quantity": 21,
-      "buyPrice": 60.49,
-      "currentPrice": 62.19,
-      "stopLoss": 56.00,
-      "targetPrice": 75.00,
-      "buyDate": "2026-03-10",
+      "symbol": "META",
+      "quantity": 4,
+      "buyPrice": 640.00,
+      "currentPrice": 654.07,
+      "value": 20408,
+      "pl": 438,
+      "plPercent": 2.19,
+      "buyDate": "2026-03-07",
+      "autoBought": true
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 10,
+      "buyPrice": 210.00,
+      "currentPrice": 214.33,
+      "value": 16718,
+      "pl": 338,
+      "plPercent": 2.06,
+      "buyDate": "2026-03-07",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": 291.25,
-    "totalPLPercent": 0.29,
-    "winRate": 75,
+    "totalPL": 1322,
+    "totalPLPercent": 1.91,
+    "winRate": 100,
     "tradesCount": 4
   }
 }
