@@ -1,58 +1,53 @@
 {
-  "lastUpdated": "2026-03-10T22:00:00+08:00",
-  "cash": 85000,
-  "totalValue": 105000,
-  "currency": "HKD",
+  "lastUpdated": "2026-03-10T22:15:00+08:00",
+  "initialValue": 100000,
+  "cash": 86371.84,
   "holdings": [
     {
       "symbol": "NVDA",
-      "shares": 5,
-      "avgCost": 850.00,
+      "quantity": 55,
+      "buyPrice": 181.56,
       "currentPrice": 182.80,
-      "value": 914.00,
-      "pl": -3336.00,
-      "plPercent": -78.49,
+      "stopLoss": 164.00,
+      "targetPrice": 220.00,
       "buyDate": "2026-03-06",
+      "autoBought": true
+    },
+    {
+      "symbol": "SCCO",
+      "quantity": 6,
+      "buyPrice": 190.64,
+      "currentPrice": 195.41,
+      "stopLoss": 175.87,
+      "targetPrice": 240.00,
+      "buyDate": "2026-03-10",
       "autoBought": true
     },
     {
       "symbol": "MSFT",
-      "shares": 10,
-      "avgCost": 415.00,
+      "quantity": 3,
+      "buyPrice": 409.41,
       "currentPrice": 404.88,
-      "value": 4048.80,
-      "pl": -101.20,
-      "plPercent": -2.44,
-      "buyDate": "2026-03-06",
+      "stopLoss": 364.00,
+      "targetPrice": 480.00,
+      "buyDate": "2026-03-10",
       "autoBought": true
     },
     {
-      "symbol": "META",
-      "shares": 8,
-      "avgCost": 490.00,
-      "currentPrice": 653.47,
-      "value": 5227.76,
-      "pl": 1307.76,
-      "plPercent": 33.36,
-      "buyDate": "2026-03-07",
-      "autoBought": true
-    },
-    {
-      "symbol": "AMZN",
-      "shares": 25,
-      "avgCost": 180.00,
-      "currentPrice": 213.69,
-      "value": 5342.25,
-      "pl": 842.25,
-      "plPercent": 18.72,
-      "buyDate": "2026-03-07",
+      "symbol": "FCX",
+      "quantity": 21,
+      "buyPrice": 60.49,
+      "currentPrice": 61.36,
+      "stopLoss": 55.22,
+      "targetPrice": 75.00,
+      "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": -1287.19,
-    "totalPLPercent": -6.13,
-    "winRate": 50,
+    "totalPL": 108.05,
+    "totalPLPercent": 0.11,
+    "winRate": 100,
     "tradesCount": 4
   }
 }

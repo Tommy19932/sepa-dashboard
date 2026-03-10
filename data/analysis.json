@@ -425,12 +425,12 @@
     "sp500": {
       "change": "+0.38%",
       "trend": "Bullish",
-      "level": null
+      "level": 5553.16
     },
     "nasdaq": {
       "change": "+0.12%",
       "trend": "Bullish",
-      "level": null
+      "level": 17317.42
     },
     "hsi": {
       "change": "+2.17%",
