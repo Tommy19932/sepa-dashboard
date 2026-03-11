@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-11T05:15:00+08:00",
+  "lastUpdated": "2026-03-11T22:28:00+08:00",
   "initialValue": 100000,
   "cash": 30350,
-  "totalValue": 100000,
+  "totalValue": 104883.20,
   "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
       "quantity": 5,
       "buyPrice": 180.00,
-      "currentPrice": 184.77,
-      "value": 7206,
-      "pl": 186,
-      "plPercent": 2.65,
+      "currentPrice": 186.50,
+      "value": 932.50,
+      "pl": 32.50,
+      "plPercent": 3.61,
       "buyDate": "2026-03-06",
       "autoBought": true
     },
@@ -20,10 +20,10 @@
       "symbol": "MSFT",
       "quantity": 8,
       "buyPrice": 400.00,
-      "currentPrice": 405.76,
-      "value": 25318,
-      "pl": 360,
-      "plPercent": 1.44,
+      "currentPrice": 403.76,
+      "value": 3230.08,
+      "pl": 30.08,
+      "plPercent": 0.94,
       "buyDate": "2026-03-06",
       "autoBought": true
     },
@@ -31,10 +31,10 @@
       "symbol": "META",
       "quantity": 4,
       "buyPrice": 640.00,
-      "currentPrice": 654.07,
-      "value": 20408,
-      "pl": 438,
-      "plPercent": 2.19,
+      "currentPrice": 651.60,
+      "value": 2606.40,
+      "pl": 46.40,
+      "plPercent": 1.81,
       "buyDate": "2026-03-07",
       "autoBought": true
     },
@@ -42,18 +42,51 @@
       "symbol": "AMZN",
       "quantity": 10,
       "buyPrice": 210.00,
-      "currentPrice": 214.33,
-      "value": 16718,
-      "pl": 338,
-      "plPercent": 2.06,
+      "currentPrice": 213.21,
+      "value": 2132.10,
+      "pl": 32.10,
+      "plPercent": 1.53,
       "buyDate": "2026-03-07",
+      "autoBought": true
+    },
+    {
+      "symbol": "700.HK",
+      "quantity": 8,
+      "buyPrice": 535.00,
+      "currentPrice": 552.00,
+      "value": 4416.00,
+      "pl": 136.00,
+      "plPercent": 3.18,
+      "buyDate": "2026-03-10",
+      "autoBought": true
+    },
+    {
+      "symbol": "SCCO",
+      "quantity": 6,
+      "buyPrice": 190.64,
+      "currentPrice": 192.49,
+      "value": 1154.94,
+      "pl": 11.10,
+      "plPercent": 0.97,
+      "buyDate": "2026-03-10",
+      "autoBought": true
+    },
+    {
+      "symbol": "FCX",
+      "quantity": 21,
+      "buyPrice": 60.49,
+      "currentPrice": 61.16,
+      "value": 1284.36,
+      "pl": 14.07,
+      "plPercent": 1.11,
+      "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": 1322,
-    "totalPLPercent": 1.91,
+    "totalPL": 302.25,
+    "totalPLPercent": 4.89,
     "winRate": 100,
-    "tradesCount": 4
+    "tradesCount": 7
   }
 }
