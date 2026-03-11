@@ -141,10 +141,20 @@ function manualBuy(symbol, price, stopLoss) {
 
 // Render portfolio overview
 function renderPortfolio() {
-    // Calculate total value
+    // Calculate total value (with currency conversion)
+    const rate = 7.8; // USD to HKD exchange rate
     let stockValue = 0;
     portfolio.holdings.forEach(h => {
-        stockValue += (h.currentPrice || h.buyPrice) * h.quantity;
+        const price = h.currentPrice || h.buyPrice;
+        const value = h.value || (price * h.quantity); // Use pre-calculated value if available
+        
+        if (h.symbol.includes('.HK')) {
+            // Hong Kong stocks - already in HKD
+            stockValue += price * h.quantity;
+        } else {
+            // US stocks - convert USD to HKD
+            stockValue += price * h.quantity * rate;
+        }
     });
     
     const totalValue = portfolio.cash + stockValue;
@@ -183,17 +193,36 @@ function renderHoldings() {
         return;
     }
     
+    const rate = 7.8; // USD to HKD exchange rate
+    
     portfolio.holdings.forEach((h, index) => {
         const currentPrice = h.currentPrice || h.buyPrice;
-        const marketValue = currentPrice * h.quantity;
-        const pl = (currentPrice - h.buyPrice) * h.quantity;
-        const plPercent = ((currentPrice - h.buyPrice) / h.buyPrice) * 100;
+        const isHK = h.symbol.includes('.HK');
+        
+        // Calculate values with proper currency conversion
+        let marketValue, pl, plPercent, displayPrice, displayBuyPrice;
+        
+        if (isHK) {
+            // HK stocks - already in HKD
+            marketValue = currentPrice * h.quantity;
+            pl = (currentPrice - h.buyPrice) * h.quantity;
+            plPercent = ((currentPrice - h.buyPrice) / h.buyPrice) * 100;
+            displayPrice = currentPrice;
+            displayBuyPrice = h.buyPrice;
+        } else {
+            // US stocks - convert to HKD for display
+            marketValue = currentPrice * h.quantity * rate;
+            pl = (currentPrice - h.buyPrice) * h.quantity * rate;
+            plPercent = ((currentPrice - h.buyPrice) / h.buyPrice) * 100;
+            displayPrice = currentPrice; // Keep USD for price display
+            displayBuyPrice = h.buyPrice;
+        }
         
         const row = document.createElement('tr');
         row.innerHTML = `
             <td><strong>${h.symbol}</strong></td>
-            <td>${formatCurrency(h.buyPrice)}</td>
-            <td>${formatCurrency(currentPrice)}</td>
+            <td>${formatCurrency(displayBuyPrice)}</td>
+            <td>${formatCurrency(displayPrice)}</td>
             <td>${h.quantity}</td>
             <td>${formatCurrency(marketValue)}</td>
             <td class="${pl >= 0 ? 'profit' : 'loss'}">${formatCurrency(pl)}</td>
@@ -407,10 +436,16 @@ function renderPortfolioChart() {
     const ctx = document.getElementById('portfolioChart');
     if (!ctx) return;
     
-    // For demo, just show current value
-    // In real app, would load historical data
+    const rate = 7.8; // USD to HKD exchange rate
+    
+    // Calculate current value with proper currency conversion
     const currentValue = portfolio.cash + portfolio.holdings.reduce((sum, h) => {
-        return sum + (h.currentPrice || h.buyPrice) * h.quantity;
+        const price = h.currentPrice || h.buyPrice;
+        if (h.symbol.includes('.HK')) {
+            return sum + price * h.quantity;
+        } else {
+            return sum + price * h.quantity * rate;
+        }
     }, 0);
     
     new Chart(ctx, {
@@ -446,13 +481,19 @@ function renderAllocationChart() {
     const ctx = document.getElementById('allocationChart');
     if (!ctx) return;
     
+    const rate = 7.8; // USD to HKD exchange rate
     const labels = ['現金'];
     const data = [portfolio.cash];
     const colors = ['#6b7280'];
     
     portfolio.holdings.forEach(h => {
         labels.push(h.symbol);
-        data.push((h.currentPrice || h.buyPrice) * h.quantity);
+        const price = h.currentPrice || h.buyPrice;
+        if (h.symbol.includes('.HK')) {
+            data.push(price * h.quantity);
+        } else {
+            data.push(price * h.quantity * rate);
+        }
         colors.push('#3b82f6');
     });
     
