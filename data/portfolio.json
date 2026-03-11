@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-11T23:35:00+08:00",
+  "lastUpdated": "2026-03-11T23:55:00+08:00",
   "initialValue": 100000,
-  "cash": 30350,
-  "totalValue": 104832.95,
+  "cash": 8562,
+  "totalValue": 100952,
   "currency": "HKD",
   "holdings": [
     {
@@ -10,8 +10,8 @@
       "quantity": 5,
       "buyPrice": 180.00,
       "currentPrice": 185.47,
-      "value": 927.35,
-      "pl": 27.35,
+      "value": 7233,
+      "pl": 213,
       "plPercent": 3.04,
       "buyDate": "2026-03-06",
       "autoBought": true
@@ -21,8 +21,8 @@
       "quantity": 8,
       "buyPrice": 400.00,
       "currentPrice": 403.48,
-      "value": 3227.84,
-      "pl": 27.84,
+      "value": 25177,
+      "pl": 217,
       "plPercent": 0.87,
       "buyDate": "2026-03-06",
       "autoBought": true
@@ -32,8 +32,8 @@
       "quantity": 4,
       "buyPrice": 640.00,
       "currentPrice": 649.51,
-      "value": 2598.04,
-      "pl": 38.04,
+      "value": 20265,
+      "pl": 297,
       "plPercent": 1.49,
       "buyDate": "2026-03-07",
       "autoBought": true
@@ -43,8 +43,8 @@
       "quantity": 10,
       "buyPrice": 210.00,
       "currentPrice": 212.08,
-      "value": 2120.80,
-      "pl": 20.80,
+      "value": 16542,
+      "pl": 162,
       "plPercent": 0.99,
       "buyDate": "2026-03-07",
       "autoBought": true
@@ -54,8 +54,8 @@
       "quantity": 8,
       "buyPrice": 535.00,
       "currentPrice": 552.00,
-      "value": 4416.00,
-      "pl": 136.00,
+      "value": 4416,
+      "pl": 136,
       "plPercent": 3.18,
       "buyDate": "2026-03-10",
       "autoBought": true
@@ -65,8 +65,8 @@
       "quantity": 6,
       "buyPrice": 190.64,
       "currentPrice": 189.77,
-      "value": 1138.62,
-      "pl": -5.22,
+      "value": 8881,
+      "pl": -41,
       "plPercent": -0.46,
       "buyDate": "2026-03-10",
       "autoBought": true
@@ -76,16 +76,16 @@
       "quantity": 21,
       "buyPrice": 60.49,
       "currentPrice": 60.29,
-      "value": 1266.09,
-      "pl": -4.20,
+      "value": 9876,
+      "pl": -33,
       "plPercent": -0.33,
       "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": 240.61,
-    "totalPLPercent": 4.83,
+    "totalPL": 952,
+    "totalPLPercent": 0.95,
     "winRate": 71,
     "tradesCount": 7
   }
