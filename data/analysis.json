@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-03-12T04:00:00+08:00",
+  "lastUpdate": "2026-03-12T05:00:00+08:00",
   "stocks": [
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "price": 186.00,
-      "changePercent": 0.67,
+      "changePercent": 0.66,
       "low52w": 86.63,
       "high52w": 212.19,
       "vsHigh": -12.35,
@@ -24,24 +24,24 @@
       "earningsGrowth": 94,
       "netMargin": 63,
       "roa": 60,
-      "pe": 37.95,
+      "pe": 37.97,
       "pb": 28.56,
       "marketCap": 4520000000000,
-      "catalysts": "AI需求強勁，數據中心業務高速增長，Blackwell芯片需求爆發",
+      "catalysts": "AI需求強勁，數據中心業務高速增長，Blackwell芯片需求爆發，與Nebius合作AI雲端",
       "stopLoss": 167.00,
       "targetPrice": 220.00,
       "riskReward": "1:1.8",
       "summary": "AI晶片龍頭，距52週高僅12.4%，營收淨利雙位數增長，技術面強勢",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 260.74,
-      "changePercent": 0.035,
+      "price": 260.81,
+      "changePercent": 0.0077,
       "low52w": 169.21,
       "high52w": 288.61,
-      "vsHigh": -9.66,
+      "vsHigh": -9.65,
       "vsLow": 54.07,
       "sepaScore": 74,
       "recommendation": "觀察",
@@ -59,23 +59,23 @@
       "roa": 34,
       "pe": 33.00,
       "pb": 43.47,
-      "marketCap": 3840000000000,
+      "marketCap": 3830000000000,
       "catalysts": "iPhone 18發布，Apple Intelligence AI功能，印度生產擴張",
       "stopLoss": 235.00,
       "targetPrice": 295.00,
       "riskReward": "1:1.4",
       "summary": "距52週高僅9.7%，增長動力放緩，估值偏高，建議等待突破或回調",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 404.69,
-      "changePercent": -0.26,
+      "price": 404.88,
+      "changePercent": 0.22,
       "low52w": 344.79,
       "high52w": 555.45,
-      "vsHigh": -27.13,
-      "vsLow": 17.37,
+      "vsHigh": -27.10,
+      "vsLow": 17.39,
       "sepaScore": 86,
       "recommendation": "買入",
       "trendScore": 8,
@@ -90,15 +90,15 @@
       "earningsGrowth": 60,
       "netMargin": 47,
       "roa": 15,
-      "pe": 25.32,
+      "pe": 25.33,
       "pb": 7.71,
       "marketCap": 3010000000000,
-      "catalysts": "Azure雲業務增長，Copilot AI普及，與Codelco簽署AI採礦協議",
+      "catalysts": "Azure雲業務增長，Copilot AI普及，支持Anthropic爭取國防AI合約",
       "stopLoss": 363.00,
       "targetPrice": 480.00,
       "riskReward": "1:2.0",
       "summary": "基本面強勁，淨利增長60%，距52週高27%有上升空間",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "TSLA",
@@ -123,24 +123,24 @@
       "earningsGrowth": -61,
       "netMargin": 3,
       "roa": 2,
-      "pe": 378.96,
+      "pe": 379.23,
       "pb": 18.23,
       "marketCap": 1280000000000,
-      "catalysts": "FSD進展，Robotaxi計劃，能源儲存業務",
+      "catalysts": "FSD進展，Robotaxi計劃，能源儲存業務，中國銷量強勁",
       "stopLoss": 367.00,
       "targetPrice": 450.00,
       "riskReward": "1:2.0",
-      "summary": "營收下滑，淨利暴跌61%，PE超高379，英國銷量跌37%，暫時避開",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "summary": "營收下滑，淨利暴跌61%，PE超高379，暫時避開",
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 212.62,
-      "changePercent": 0.80,
+      "price": 212.65,
+      "changePercent": 0.78,
       "low52w": 161.43,
       "high52w": 258.60,
-      "vsHigh": -17.78,
+      "vsHigh": -17.75,
       "vsLow": 31.72,
       "sepaScore": 83,
       "recommendation": "買入",
@@ -156,7 +156,7 @@
       "earningsGrowth": 6,
       "netMargin": 10,
       "roa": 7,
-      "pe": 29.65,
+      "pe": 29.64,
       "pb": 5.59,
       "marketCap": 2280000000000,
       "catalysts": "AWS AI增長，電商復甦，Prime會員擴張，AWS推出AI醫療平台",
@@ -164,13 +164,13 @@
       "targetPrice": 265.00,
       "riskReward": "1:2.7",
       "summary": "距52週高18%，AWS雲業務穩健增長，現金流強勁",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 654.79,
-      "changePercent": 0.11,
+      "price": 654.86,
+      "changePercent": 0.12,
       "low52w": 479.80,
       "high52w": 796.25,
       "vsHigh": -17.76,
@@ -197,7 +197,7 @@
       "targetPrice": 790.00,
       "riskReward": "1:2.0",
       "summary": "Magnificent 7中表現最佳，營收增長24%，PE僅22.6估值合理",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "700.HK",
@@ -230,7 +230,7 @@
       "targetPrice": 650.00,
       "riskReward": "1:2.0",
       "summary": "估值合理PE僅21，遊戲+社交雙核心，微信AI Agent催化劑強勁",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "9992.HK",
@@ -263,7 +263,7 @@
       "targetPrice": 280.00,
       "riskReward": "1:3.8",
       "summary": "營收暴增204%，淨利暴增396%，距52週高40%有上升空間，但估值偏高",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "0857.HK",
@@ -296,7 +296,7 @@
       "targetPrice": 11.50,
       "riskReward": "1:1.0",
       "summary": "距52週高僅6.9%！收息股股息率4.9%，PE僅11，但營收增長動力不足",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "FCX",
@@ -323,19 +323,19 @@
       "roa": 4,
       "pe": 40.42,
       "pb": 4.74,
-      "marketCap": 88260000000,
+      "marketCap": 88450000000,
       "catalysts": "銅短缺主題，AI數據中心銅需求，升級至買入評級",
       "stopLoss": 54.00,
       "targetPrice": 75.00,
       "riskReward": "1:2.3",
       "summary": "距52週高僅11.8%，銅短缺主題強勁，淨利增長48%，從低位反彈122%",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "SCCO",
       "name": "Southern Copper Corp",
-      "price": 192.03,
-      "changePercent": -2.09,
+      "price": 192.02,
+      "changePercent": -2.11,
       "low52w": 72.13,
       "high52w": 223.89,
       "vsHigh": -14.23,
@@ -356,13 +356,13 @@
       "roa": 25,
       "pe": 36.62,
       "pb": 14.68,
-      "marketCap": 157290000000,
+      "marketCap": 157280000000,
       "catalysts": "銅短缺主題，基本面最強銅股，營收淨利雙高增長",
       "stopLoss": 171.00,
       "targetPrice": 240.00,
       "riskReward": "1:1.8",
       "summary": "基本面最強銅股！營收增39%淨利增65%，淨利率34%，距52週高14%",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "AVAV",
@@ -389,19 +389,19 @@
       "roa": -1,
       "pe": 0,
       "pb": 2.49,
-      "marketCap": 10320000000,
+      "marketCap": 10370000000,
       "catalysts": "國防無人機Switchblade，收購BlueHalo",
       "stopLoss": 185.00,
       "targetPrice": 260.00,
       "riskReward": "1:2.4",
       "summary": "Q4營收不及預期，Space Unit減值，距52週高50%嚴重落後，暫時避開",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     },
     {
       "symbol": "KTOS",
       "name": "Kratos Defense & Security Solutions Inc",
       "price": 88.92,
-      "changePercent": -0.04,
+      "changePercent": -0.045,
       "low52w": 25.78,
       "high52w": 134.00,
       "vsHigh": -33.64,
@@ -428,7 +428,7 @@
       "targetPrice": 120.00,
       "riskReward": "1:2.5",
       "summary": "營收增22%淨利增51%，但PE超高668估值過高，距52週高34%，等待回調",
-      "analysisDate": "2026-03-12T04:00:00+08:00"
+      "analysisDate": "2026-03-12T05:00:00+08:00"
     }
   ],
   "autoBuyCandidates": [
@@ -444,7 +444,7 @@
     {
       "symbol": "META",
       "score": 89,
-      "price": 654.79,
+      "price": 654.86,
       "suggestedBuyPrice": 620.00,
       "stopLoss": 585.00,
       "targetPrice": 790.00,
@@ -453,7 +453,7 @@
     {
       "symbol": "SCCO",
       "score": 88,
-      "price": 192.03,
+      "price": 192.02,
       "suggestedBuyPrice": 180.00,
       "stopLoss": 171.00,
       "targetPrice": 240.00,
@@ -462,7 +462,7 @@
     {
       "symbol": "MSFT",
       "score": 86,
-      "price": 404.69,
+      "price": 404.88,
       "suggestedBuyPrice": 390.00,
       "stopLoss": 363.00,
       "targetPrice": 480.00,
@@ -471,7 +471,7 @@
     {
       "symbol": "AMZN",
       "score": 83,
-      "price": 212.62,
+      "price": 212.65,
       "suggestedBuyPrice": 200.00,
       "stopLoss": 191.00,
       "targetPrice": 265.00,
@@ -498,9 +498,9 @@
   ],
   "marketSummary": {
     "sp500": {
-      "change": "+0.09%",
+      "change": "+0.08%",
       "trend": "Bullish",
-      "level": 6775.76
+      "level": 6775.80
     },
     "nasdaq": {
       "change": "+0.08%",
@@ -521,8 +521,8 @@
     "riskLevel": "Medium",
     "keyEvents": [
       "騰訊小幅上漲0.27%至552港元",
-      "NVDA上漲0.67%至$186.00",
-      "META上漲0.11%至$654.79，發布自家AI芯片",
+      "NVDA上漲0.66%至$186.00，與Nebius合作AI雲端",
+      "META上漲0.12%至$654.86，發布自家AI芯片",
       "銅股回調 FCX跌1.4% SCCO跌2.1%",
       "AVAV大跌6.3%至$207.73，Q4營收不及預期",
       "TSLA大漲2.15%至$407.82"
