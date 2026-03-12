@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-12T10:00:00+08:00",
+  "lastUpdated": "2026-03-12T10:05:00+08:00",
   "initialValue": 100000,
-  "cash": -6299,
-  "totalValue": 102898,
+  "cash": 64509,
+  "totalValue": 100299,
   "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
-      "quantity": 55,
+      "quantity": 5,
       "buyPrice": 181.56,
       "currentPrice": 186.00,
       "stopLoss": 163,
@@ -47,25 +47,24 @@
     }
   ],
   "performance": {
-    "totalPL": 2898,
-    "totalPLPercent": 2.90,
+    "totalPL": 299,
+    "totalPLPercent": 0.30,
     "winRate": 75,
     "tradesCount": 4
   },
   "validation": {
     "rate": 7.8,
-    "totalCostHKD": 106299,
-    "holdingsValueHKD": 109197,
-    "cashVerified": -6299,
-    "totalVerified": 102898,
-    "validatedAt": "2026-03-12T10:00:00+08:00",
+    "totalCostHKD": 35491,
+    "holdingsValueHKD": 35790,
+    "cashVerified": 64509,
+    "totalVerified": 100299,
+    "validatedAt": "2026-03-12T10:05:00+08:00",
     "checks": {
       "cashEqualsInitialMinusCost": true,
       "totalEqualsCashPlusHoldings": true,
       "allFieldsNotNull": true,
       "usingQuantityNotShares": true,
       "usingBuyPriceNotAvgCost": true
-    },
-    "warning": "Total cost exceeds initial capital - margin trading assumed"
+    }
   }
 }
