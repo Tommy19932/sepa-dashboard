@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-12T10:05:00+08:00",
+  "lastUpdated": "2026-03-12T21:00:00+08:00",
   "initialValue": 100000,
   "cash": 64509,
-  "totalValue": 100299,
+  "totalValue": 100319,
   "currency": "HKD",
   "holdings": [
     {
@@ -47,18 +47,18 @@
     }
   ],
   "performance": {
-    "totalPL": 299,
-    "totalPLPercent": 0.30,
+    "totalPL": 319,
+    "totalPLPercent": 0.32,
     "winRate": 75,
     "tradesCount": 4
   },
   "validation": {
     "rate": 7.8,
     "totalCostHKD": 35491,
-    "holdingsValueHKD": 35790,
+    "holdingsValueHKD": 35810,
     "cashVerified": 64509,
-    "totalVerified": 100299,
-    "validatedAt": "2026-03-12T10:05:00+08:00",
+    "totalVerified": 100319,
+    "validatedAt": "2026-03-12T21:00:00+08:00",
     "checks": {
       "cashEqualsInitialMinusCost": true,
       "totalEqualsCashPlusHoldings": true,
