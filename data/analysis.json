@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "2026-03-13T02:00:00+08:00",
+  "lastUpdate": "2026-03-13T03:00:00+08:00",
   "stocks": [
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 183.59,
-      "changePercent": -1.29,
+      "price": 183.07,
+      "changePercent": -1.58,
       "low52w": 86.63,
       "high52w": 212.19,
-      "vsHigh": -13.47,
-      "vsLow": 111.89,
+      "vsHigh": -13.72,
+      "vsLow": 111.33,
       "sepaScore": 95,
       "recommendation": "買入",
       "trendScore": 9,
@@ -37,12 +37,12 @@
     {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 255.44,
-      "changePercent": -2.06,
+      "price": 255.15,
+      "changePercent": -2.17,
       "low52w": 169.21,
       "high52w": 288.61,
-      "vsHigh": -11.49,
-      "vsLow": 50.95,
+      "vsHigh": -11.59,
+      "vsLow": 50.79,
       "sepaScore": 72,
       "recommendation": "觀察",
       "trendScore": 6,
@@ -70,12 +70,12 @@
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 403.76,
-      "changePercent": -0.28,
+      "price": 403.20,
+      "changePercent": -0.42,
       "low52w": 344.79,
       "high52w": 555.45,
-      "vsHigh": -27.31,
-      "vsLow": 17.09,
+      "vsHigh": -27.41,
+      "vsLow": 16.95,
       "sepaScore": 85,
       "recommendation": "買入",
       "trendScore": 8,
@@ -103,12 +103,12 @@
     {
       "symbol": "TSLA",
       "name": "Tesla, Inc.",
-      "price": 397.30,
-      "changePercent": -2.58,
+      "price": 397.26,
+      "changePercent": -2.59,
       "low52w": 214.25,
       "high52w": 498.82,
-      "vsHigh": -20.36,
-      "vsLow": 85.46,
+      "vsHigh": -20.35,
+      "vsLow": 85.44,
       "sepaScore": 55,
       "recommendation": "避開",
       "trendScore": 4,
@@ -196,7 +196,7 @@
       "stopLoss": 184.00,
       "targetPrice": 280.00,
       "riskReward": "1:3.8",
-      "summary": "營收暴增204%，淨利暴增396%，距52週高40%有上升空間，但估值偏高",
+      "summary": "營收暴增204%，淨利暴增396%，距52週高40%有上升空間，與Sanrio合作推出盲盒",
       "analysisDate": "2026-03-13T02:00:00+08:00"
     },
     {
@@ -235,12 +235,12 @@
     {
       "symbol": "FCX",
       "name": "Freeport-McMoRan Inc.",
-      "price": 59.21,
-      "changePercent": -3.79,
+      "price": 59.46,
+      "changePercent": -3.38,
       "low52w": 27.66,
       "high52w": 69.75,
-      "vsHigh": -15.10,
-      "vsLow": 114.14,
+      "vsHigh": -14.75,
+      "vsLow": 115.04,
       "sepaScore": 82,
       "recommendation": "買入",
       "trendScore": 8,
@@ -268,12 +268,12 @@
     {
       "symbol": "SCCO",
       "name": "Southern Copper Corp",
-      "price": 181.89,
-      "changePercent": -5.28,
+      "price": 182.78,
+      "changePercent": -4.81,
       "low52w": 72.13,
       "high52w": 223.89,
-      "vsHigh": -18.76,
-      "vsLow": 152.21,
+      "vsHigh": -18.36,
+      "vsLow": 153.44,
       "sepaScore": 88,
       "recommendation": "買入",
       "trendScore": 9,
@@ -301,12 +301,12 @@
     {
       "symbol": "AVAV",
       "name": "AeroVironment Inc",
-      "price": 216.77,
-      "changePercent": 4.35,
+      "price": 216.45,
+      "changePercent": 4.20,
       "low52w": 102.25,
       "high52w": 417.86,
-      "vsHigh": -48.13,
-      "vsLow": 112.00,
+      "vsHigh": -48.20,
+      "vsLow": 111.69,
       "sepaScore": 55,
       "recommendation": "避開",
       "trendScore": 4,
@@ -334,12 +334,12 @@
     {
       "symbol": "KTOS",
       "name": "Kratos Defense & Security Solutions Inc",
-      "price": 90.65,
-      "changePercent": 1.95,
+      "price": 90.66,
+      "changePercent": 1.96,
       "low52w": 25.78,
       "high52w": 134.00,
-      "vsHigh": -32.35,
-      "vsLow": 251.63,
+      "vsHigh": -32.34,
+      "vsLow": 251.67,
       "sepaScore": 62,
       "recommendation": "觀察",
       "trendScore": 5,
@@ -402,38 +402,38 @@
     {
       "symbol": "NVDA",
       "score": 95,
-      "price": 183.59,
+      "price": 183.07,
       "suggestedBuyPrice": 175.00,
       "stopLoss": 166.00,
       "targetPrice": 215.00,
-      "reason": "AI龍頭跌1.3%，距52週高13.5%，逢低吸納"
+      "reason": "AI龍頭跌1.6%，距52週高13.7%，逢低吸納"
     },
     {
       "symbol": "SCCO",
       "score": 88,
-      "price": 181.89,
+      "price": 182.78,
       "suggestedBuyPrice": 175.00,
       "stopLoss": 166.00,
       "targetPrice": 240.00,
-      "reason": "回調5.3%，基本面最強銅股"
+      "reason": "回調4.8%，基本面最強銅股"
     },
     {
       "symbol": "MSFT",
       "score": 85,
-      "price": 403.76,
+      "price": 403.20,
       "suggestedBuyPrice": 390.00,
       "stopLoss": 362.00,
       "targetPrice": 480.00,
-      "reason": "雲+AI雙引擎，淨利增長60%，距52週高27%"
+      "reason": "雲+AI雙引擎，淨利增長60%，距52週高27.4%"
     },
     {
       "symbol": "FCX",
       "score": 82,
-      "price": 59.21,
+      "price": 59.46,
       "suggestedBuyPrice": 55.00,
       "stopLoss": 54.00,
       "targetPrice": 75.00,
-      "reason": "銅短缺主題，距52週高15%，淨利增48%"
+      "reason": "銅短缺主題，距52週高14.8%，淨利增48%"
     },
     {
       "symbol": "700.HK",
@@ -442,7 +442,7 @@
       "suggestedBuyPrice": 530.00,
       "stopLoss": 497.00,
       "targetPrice": 650.00,
-      "reason": "微信AI Agent催化劑，PE僅22估值合理"
+      "reason": "微信AI Agent催化劑，PE僅21估值合理"
     }
   ],
   "marketSummary": {
@@ -466,16 +466,16 @@
       "trend": "Bearish",
       "level": 54452.96
     },
-    "summary": "美股維持強勢，S&P漲1.2%，納指漲1.5%；港股回調0.7%；日股跌1%；科技股漲跌互現，NVDA跌1.3%，銅股回調SCCO跌5.3% FCX跌3.8%，TSLA跌2.6%，AVAV反彈4.4%",
+    "summary": "美股維持強勢，S&P漲1.2%，納指漲1.5%；港股回調0.7%；日股跌1%；科技股漲跌互現，NVDA跌1.6%，銅股回調SCCO跌4.8% FCX跌3.4%，TSLA跌2.6%，AVAV反彈4.2%",
     "riskLevel": "Medium",
     "keyEvents": [
-      "NVDA跌1.3%至$183.59，距52週高13.5%，逢低吸納機會",
-      "SCCO回調5.3%至$181.89，基本面最強銅股",
-      "FCX回調3.8%至$59.21，銅短缺主題強勁",
-      "TSLA下跌2.6%至$397.30，基本面仍弱",
+      "NVDA跌1.6%至$183.07，距52週高13.7%，逢低吸納機會",
+      "SCCO回調4.8%至$182.78，基本面最強銅股",
+      "FCX回調3.4%至$59.46，銅短缺主題強勁",
+      "TSLA下跌2.6%至$397.26，基本面仍弱",
       "0857.HK漲1.1%至$10.62，距52週高僅5.9%",
-      "AAPL跌2.1%至$255.44，中國出貨量下滑",
-      "銅股整體回調 FCX跌3.8% SCCO跌5.3%"
+      "AAPL跌2.2%至$255.15，中國出貨量下滑",
+      "銅股整體回調 FCX跌3.4% SCCO跌4.8%"
     ]
   }
 }
