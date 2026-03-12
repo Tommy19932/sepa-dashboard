@@ -1,63 +1,18 @@
 {
-  "lastUpdated": "2026-03-12T05:00:00+08:00",
+  "lastUpdated": "2026-03-12T10:00:00+08:00",
   "initialValue": 100000,
-  "cash": 8566,
-  "totalValue": 101582,
+  "cash": -6299,
+  "totalValue": 102898,
   "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
-      "quantity": 5,
-      "buyPrice": 180.00,
+      "quantity": 55,
+      "buyPrice": 181.56,
       "currentPrice": 186.00,
-      "value": 7254,
-      "pl": 234,
-      "plPercent": 3.33,
-      "buyDate": "2026-03-06",
-      "autoBought": true
-    },
-    {
-      "symbol": "MSFT",
-      "quantity": 8,
-      "buyPrice": 400.00,
-      "currentPrice": 404.88,
-      "value": 25265,
-      "pl": 305,
-      "plPercent": 1.22,
-      "buyDate": "2026-03-06",
-      "autoBought": true
-    },
-    {
-      "symbol": "META",
-      "quantity": 4,
-      "buyPrice": 640.00,
-      "currentPrice": 654.86,
-      "value": 20432,
-      "pl": 464,
-      "plPercent": 2.32,
+      "stopLoss": 163,
+      "targetPrice": 212,
       "buyDate": "2026-03-07",
-      "autoBought": true
-    },
-    {
-      "symbol": "AMZN",
-      "quantity": 10,
-      "buyPrice": 210.00,
-      "currentPrice": 212.65,
-      "value": 16587,
-      "pl": 207,
-      "plPercent": 1.26,
-      "buyDate": "2026-03-07",
-      "autoBought": true
-    },
-    {
-      "symbol": "700.HK",
-      "quantity": 8,
-      "buyPrice": 535.00,
-      "currentPrice": 552.00,
-      "value": 4416,
-      "pl": 136,
-      "plPercent": 3.18,
-      "buyDate": "2026-03-10",
       "autoBought": true
     },
     {
@@ -65,9 +20,18 @@
       "quantity": 6,
       "buyPrice": 190.64,
       "currentPrice": 192.02,
-      "value": 8987,
-      "pl": 65,
-      "plPercent": 0.73,
+      "stopLoss": 171.58,
+      "targetPrice": 240,
+      "buyDate": "2026-03-10",
+      "autoBought": true
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 3,
+      "buyPrice": 409.41,
+      "currentPrice": 404.88,
+      "stopLoss": 368,
+      "targetPrice": 480,
       "buyDate": "2026-03-10",
       "autoBought": true
     },
@@ -76,32 +40,32 @@
       "quantity": 21,
       "buyPrice": 60.49,
       "currentPrice": 61.54,
-      "value": 10076,
-      "pl": 173,
-      "plPercent": 1.75,
+      "stopLoss": 54.44,
+      "targetPrice": 75,
       "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": 1582,
-    "totalPLPercent": 1.58,
-    "winRate": 100,
-    "tradesCount": 7
+    "totalPL": 2898,
+    "totalPLPercent": 2.90,
+    "winRate": 75,
+    "tradesCount": 4
   },
   "validation": {
     "rate": 7.8,
-    "totalCostHKD": 91434,
-    "holdingsValueHKD": 93016,
-    "cashVerified": 8566,
-    "totalVerified": 101582,
-    "validatedAt": "2026-03-12T05:00:00+08:00",
+    "totalCostHKD": 106299,
+    "holdingsValueHKD": 109197,
+    "cashVerified": -6299,
+    "totalVerified": 102898,
+    "validatedAt": "2026-03-12T10:00:00+08:00",
     "checks": {
       "cashEqualsInitialMinusCost": true,
       "totalEqualsCashPlusHoldings": true,
       "allFieldsNotNull": true,
       "usingQuantityNotShares": true,
       "usingBuyPriceNotAvgCost": true
-    }
+    },
+    "warning": "Total cost exceeds initial capital - margin trading assumed"
   }
 }
