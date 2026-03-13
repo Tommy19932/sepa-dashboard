@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-03-13T22:00:00+08:00",
+  "lastUpdated": "2026-03-13T23:00:00+08:00",
   "initialValue": 100000,
-  "cash": 64513,
-  "totalValue": 98975,
+  "cash": 64509,
+  "totalValue": 98390,
   "currency": "HKD",
   "holdings": [
     {
       "symbol": "NVDA",
       "quantity": 5,
       "buyPrice": 181.56,
-      "currentPrice": 184.90,
-      "stopLoss": 166,
+      "currentPrice": 182.09,
+      "stopLoss": 164,
       "targetPrice": 215,
       "buyDate": "2026-03-07",
       "autoBought": true
@@ -19,8 +19,8 @@
       "symbol": "SCCO",
       "quantity": 6,
       "buyPrice": 190.64,
-      "currentPrice": 178.81,
-      "stopLoss": 171.58,
+      "currentPrice": 173.96,
+      "stopLoss": 156,
       "targetPrice": 240,
       "buyDate": "2026-03-10",
       "autoBought": true
@@ -29,8 +29,8 @@
       "symbol": "MSFT",
       "quantity": 3,
       "buyPrice": 409.41,
-      "currentPrice": 401.21,
-      "stopLoss": 368,
+      "currentPrice": 399.05,
+      "stopLoss": 360,
       "targetPrice": 480,
       "buyDate": "2026-03-10",
       "autoBought": true
@@ -39,26 +39,26 @@
       "symbol": "FCX",
       "quantity": 21,
       "buyPrice": 60.49,
-      "currentPrice": 57.99,
-      "stopLoss": 54.44,
+      "currentPrice": 56.78,
+      "stopLoss": 51,
       "targetPrice": 75,
       "buyDate": "2026-03-10",
       "autoBought": true
     }
   ],
   "performance": {
-    "totalPL": -1025,
-    "totalPLPercent": -1.03,
+    "totalPL": -1610,
+    "totalPLPercent": -1.61,
     "winRate": 25,
     "tradesCount": 4
   },
   "validation": {
     "rate": 7.8,
-    "totalCostHKD": 35487,
-    "holdingsValueHKD": 34462,
-    "cashVerified": 64513,
-    "totalVerified": 98975,
-    "validatedAt": "2026-03-13T22:00:00+08:00",
+    "totalCostHKD": 35491,
+    "holdingsValueHKD": 33881,
+    "cashVerified": 64509,
+    "totalVerified": 98390,
+    "validatedAt": "2026-03-13T23:00:00+08:00",
     "checks": {
       "cashEqualsInitialMinusCost": true,
       "totalEqualsCashPlusHoldings": true,
